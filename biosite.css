@@ -1,0 +1,322 @@
+/*for large screens*/
+/*default settings body*/
+body {
+	background: linear-gradient(to bottom, #728FCE 0%,
+				#FFFFFF 100%);
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+}
+/*default div for responsiveness*/
+#wrapper {
+    margin-right: 40px;
+	margin-left: 40px;
+	/*margin: auto;
+	height: auto;*/
+	position: relative;
+	background-color: #728FCE;
+	box-shadow: 5px 5px 5px #666666;
+}
+/*default header*/
+header {
+	line-height: 0.3;
+	background-color: #EDDA74;
+	padding-bottom: 6px;
+	padding-top: 3px;
+	box-shadow: 0 5px 0px 0 rgba(7, 5, 5, 0.2);
+}
+/*default heading 1*/
+h1 {
+	width: 480px;
+	text-align: center;
+	font-family:'Herr Von Muellerhoff', Arial, sans-serif;
+	font-size: 48pt;
+	font-weight: 400;
+	margin-left: 33%;
+}
+/*default heading 2*/
+h2 {
+	width: 320px;
+	text-align: center;
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+	font-size: 32pt;
+	font-weight: bold;
+	margin-left: 38%;
+}
+/*default heading 3*/
+h3 {
+	width: 110px;
+    text-align: center;
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+	font-weight: bold;
+	margin-left: 45.5%;
+}
+/*default navigation*/
+nav {
+	margin-left: 41%;
+	text-align: center;
+	color: #00FFFF;
+	width: 240px;
+	height: 50px;
+}
+nav ul { 
+	list-style-type: none;
+	margin: 2em;
+	padding: 0;
+}
+nav ul li {
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+	font-size: 12pt;
+	display: inline;
+	margin: .5em;
+}
+
+a:link {
+	color: #00FFFF;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:active {
+	color: #EDDA74;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/*specific to index (home) page*/
+#cross1 {
+	float: left;
+	margin-left: 20px;
+}
+#cross2 {
+	float: right;
+	margin-right: 20px;
+}
+#portrait {
+	margin-left: 34%;
+}
+#dad_home {
+    border: 15px ridge #6f4e37;
+}
+#smallpics {
+    margin-left: 25%;
+}
+#small_pic1, #small_pic2, #small_pic3 {
+    float: left;
+    margin: 10px;
+}
+#dad69 {
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px #666666;
+}
+#pastor_cake {
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px #666666;
+}
+#dad_jakir {
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px #666666;
+}
+#pic_cap2, #pic_cap3, #pic_cap4 {
+    font-style: italic;
+    text-align: center;
+}
+#home_intro {
+    margin-left: 37px;
+    margin-right: 37px;
+	margin-top: 20%;
+	text-align: center;
+	line-height: 1.6;
+	/*border: 1px solid black;*/
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+}
+#link {
+	text-align: center;
+	margin-left: 60%;
+	width: 300px;
+}
+#link a:hover {
+	background-color: #EDDA74;
+}
+/*default footer*/
+footer {
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+	font-size: 0.70em;
+	text-align: center;
+	font-style: italic;
+	padding: 5px;
+	margin-left: 0;
+	background-color: #EDDA74;
+}
+footer nav ul li {
+	padding: 10px;
+	font-size: 0.90em;
+}
+footer nav ul li a:link {
+	color: #00FFFF;
+	background-color: transparent;
+	text-decoration: none;
+}
+footer nav ul li a:visited {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+footer nav ul li a:hover {
+	color: #EDDA74;
+	background-color: green;
+	text-decoration: underline;
+}
+
+/*About page*/
+#all_columns {
+    margin-bottom: 133%;
+    margin-left: 1%;
+}
+#column1, #column2, #column3 {
+	width: 420px;
+	float: left;
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+	line-height: 1.3;
+    padding: 2px;
+    margin: 5px;
+}
+.column1 h4 {
+	line-height: .1;
+}
+.column2 h4 {
+	line-height: .1;
+}
+.column3 h4 {
+	line-height: .1;
+}
+#james_fishing {
+	margin: 2px;
+	border: 1px solid black;
+	float: left;
+}
+#superbee {
+	margin: 2px;
+	border: 1px solid black;
+	float: right;
+}
+#youngbrown {
+	margin: 2px;
+	border: 1px solid black;
+	float: left;
+}
+#mondoed {
+	margin: 2px;
+	border: 1px solid black;
+	float: right;
+}
+#framed {
+	margin: 2px;
+	border: 1px solid black;
+	float: left;
+}
+.bpp_links {
+	text-align: center;
+	font-size: 9pt;
+    font-style: italic;
+}
+.bpp_links a:hover {
+	background-color: #EDDA74;
+}
+#momdad {
+	border: 1px solid black;
+	float: right;
+}
+#busdrive {
+	margin: 2px;
+	float: left;
+	border: 1px solid black;
+}
+#taxform {
+	margin: 2px;
+	float: left;
+	border: 1px solid black;
+}
+#dad_baby {
+	margin: 2px;
+	border: 1px solid black;
+	float: right;
+}
+#storepic {
+	margin: 2px;
+	border: 1px solid black;
+	float: right;
+}
+#marriage {
+	border: 1px solid black;
+	float: right;
+}
+#chef_james {
+	border: 1px solid black;
+    width: 419px;
+}
+#dad_carve {
+	margin: 2px;
+	border: 1px solid black;
+	float: right;
+}
+#baptism {
+	margin: 2px;
+	border: 1px solid black;
+	float: right;
+}
+#church_service {
+	margin: 2px;
+	border: 1px solid black;
+	float: left;
+}
+#daddorothy {
+	margin: 2px;
+	border: 1px solid black;
+	float: right;
+}
+
+/*Hobbies page*/
+#hobby_columns {
+    margin-bottom: 60%;
+    margin-left: 1%;
+}
+#hobby1, #hobby2, #hobby3 {
+	width: 430px;
+	float: left;
+	font-family:'PT Sans Narrow', Arial, sans-serif ;
+	line-height: 1.3;
+	text-align: center;
+    margin: 3px;
+}
+#kimball {
+    width: 380px;
+    margin-left: -4%;
+	border: 1px solid black;
+}
+#cartech {
+    width: 380px;
+    margin-left: -4%;
+	border: 1px solid black;
+}
+#catering {
+    width: 380px;
+    margin-left: -4%;
+	border: 1px solid black;
+}
+.piano_link a:hover {
+	background-color: #EDDA74;
+}
+.auto_link a:hover {
+	background-color: #EDDA74;
+}
+.food_link a:hover {
+	background-color: #EDDA74;
+}
