@@ -320,3 +320,475 @@ footer nav ul li a:hover {
 .food_link a:hover {
 	background-color: #EDDA74;
 }
+
+@media only screen and (min-width: 1201px) and (max-width: 1376px) {
+	h1 {
+		margin-left: 30%;
+	}
+	h2 {
+		margin-left: 37%;
+	}
+	nav {
+		margin-left: 40%;
+	}
+	#portrait {
+		margin-left: 32%;
+	}
+	#smallpics {
+		margin-left: 23%;
+	}
+	#home_intro {
+		margin-top: 30%;
+	}
+
+	/*About page*/
+	#all_columns {
+		margin-bottom: 180%;
+	}
+	#column1, #column2, #column3 {
+		width: 350px;
+	}
+	#james_fishing {
+		width: 175px;
+	}
+	#superbee {
+		width: 175px;
+	}
+	#youngbrown {
+		width: 175px;
+	}
+	#mondoed {
+		width: 175px;
+	}
+	#framed {
+		width: 175px;
+	}
+	#momdad {
+		width: 175px;
+	}
+	#busdrive {
+		width: 175px;
+	}
+	#taxform {
+		width: 175px;
+	}
+	#dad_baby {
+		width: 175px;
+	}
+	#storepic {
+		width: 175px;
+	}
+	#marriage {
+		width: 240px;
+		float: right;
+	}
+	#chef_james {
+		width: 345px;
+	}
+	#dad_carve {
+		width: 175px;
+	}
+	#baptism {
+		width: 175px;
+	}
+	#church_service {
+		width: 175px;
+	}
+	#daddorothy {
+		width: 175px;
+	}
+
+	/*Hobbies page*/
+	#hobby_columns {
+		margin-bottom: 65%;
+	}
+	#hobby1, #hobby2, #hobby3 {
+		width: 360px;
+	}
+	#kimball {
+		width: 320px;
+		margin-left: -8%;
+		border: 1px solid black;
+	}
+	#cartech {
+		width: 320px;
+		margin-left: -8%;
+		border: 1px solid black;
+	}
+	#catering {
+		width: 320px;
+		margin-left: -8%;
+		border: 1px solid black;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+	h1 {
+		margin-left: 27%;
+	}
+	h2 {
+		margin-left: 35%;
+	}
+	nav {
+		margin-left: 39%;
+	}
+
+	/*Home(index) page*/
+	#cross1, #cross2 {
+		width: 180px;
+		height: 515px;
+	}
+	#portrait {
+		margin-left: 33%;
+	}
+	#dad_home {
+		width: 330px;
+	}
+	#smallpics {
+		margin-left: 18%;
+	}
+	#pic_cap1, #pic_cap2, #pic_cap3, #pic_cap4 {
+        font-size: 10pt;
+        font-style: italic;
+    }
+	#home_intro {
+		margin-top: 30%;
+	}
+
+	/*About page*/
+	#all_columns {
+		margin-bottom: 240%;
+	}
+	#column1, #column2, #column3 {
+		width: 295px;
+	}
+	#james_fishing {
+		width: 165px;
+	}
+	#superbee {
+		width: 165px;
+	}
+	#youngbrown {
+		width: 165px;
+	}
+	#mondoed {
+		width: 165px;
+	}
+	#framed {
+		width: 165px;
+	}
+	#momdad {
+		width: 165px;
+	}
+	#busdrive {
+		width: 165px;
+	}
+	#taxform {
+		width: 165px;
+	}
+	#dad_baby {
+		width: 165px;
+	}
+	#storepic {
+		width: 165px;
+	}
+	#marriage {
+		width: 230px;
+		float: right;
+	}
+	#chef_james {
+		width: 293px;
+	}
+	#dad_carve {
+		width: 165px;
+	}
+	#baptism {
+		width: 165px;
+	}
+	#church_service {
+		width: 165px;
+	}
+	#daddorothy {
+		width: 165px;
+	}
+
+	/*Hobbies page*/
+	#hobby_columns {
+		margin-bottom: 80%;
+	}
+	#hobby1, #hobby2, #hobby3 {
+		width: 300px;
+	}
+	#kimball {
+		width: 275px;
+		margin-left: -10%;
+		border: 1px solid black;
+	}
+	#cartech {
+		width: 275px;
+		margin-left: -10%;
+		border: 1px solid black;
+	}
+	#catering {
+		width: 275px;
+		margin-left: -10%;
+		border: 1px solid black;
+	}
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	h1 {
+		margin-left: 14.5%;
+	}
+	h2 {
+		margin-left: 25.5%;
+	}
+	h3 {
+		margin-left: 40%;
+	}
+	nav {
+		margin-left: 31%;
+	}
+	#cross1, #cross2 {
+		width: 130px;
+		height: 515px;
+	}
+	#portrait {
+		margin-left: 24%;
+	}
+	#dad_home {
+		width: 330px;
+	}
+	#dad69, #pastor_cake, #dad_jakir {
+		width: 140px;
+	}
+	#smallpics {
+		margin-left: 17%;
+	}
+	#small_pic1, #small_pic2, #small_pic3 {
+		margin: 6px;
+	}
+	#pic_cap1, #pic_cap2, #pic_cap3, #pic_cap4 {
+        font-size: 8pt;
+        font-style: italic;
+    }
+	#home_intro {
+		margin-top: 30%;
+	}
+	#link {
+		margin-left: 49%;
+	}
+	
+	/*About page*/
+	#all_columns {
+		margin-left: 13%;
+		margin-bottom: 630%;
+	}
+	#column1, #column2, #column3 {
+		width: 480px;
+	}
+	#taxform {
+		float: right;
+	}
+
+	/*Hobbies page*/
+	#hobby_columns {
+		margin-left: 17%;
+		margin-bottom: 270%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	#wrapper {
+		margin: 0;
+		border-collapse: collapse;
+		box-shadow: none;
+	}
+	h1 {
+		font-size: 38pt;
+		margin-left: -1%;
+	}
+	h2 {
+		margin-left: 16%;
+	}
+	h3 {
+		margin-left: 35%;
+		font-size: 12pt;
+	}
+	nav {
+		margin-left: 23.5%;
+	}
+	/*Home(index) page*/
+	#cross1, #cross2 {
+		display: none;
+	}
+	#portrait {
+		margin-left: 23%;
+	}
+	#dad_home {
+		width: 230px;
+	}
+	#dad69, #pastor_cake, #dad_jakir {
+		width: 120px;
+	}
+	#smallpics {
+		margin-left: 20%;
+	}
+	#small_pic3 {
+		margin-left: 20%;
+	}
+	#pic_cap2, #pic_cap3, #pic_cap4 {
+        font-size: 9pt;
+        font-style: italic;
+    }
+	#home_intro {
+		margin-top: 83%;
+	}
+	#link {
+		margin-left: 36%;
+	}
+
+	/*About page*/
+	#all_columns {
+		margin-left: 5%;
+		margin-bottom: 1005%;
+	}
+
+	/*Hobbies page*/
+	#hobby_columns {
+		margin-left: 5%;
+		margin-bottom: 385%;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	#wrapper {
+		margin: 0;
+		border-collapse: collapse;
+		box-shadow: none;
+	}
+	h1 {
+		font-size: 28pt;
+		margin-left: -25%;
+	}
+	h2 {
+		font-size: 28pt;
+		margin-left: -.5%;
+	}
+	h3 {
+		font-size: 10pt;
+		margin-left: 31%;
+	}
+	nav {
+		margin-left: 12%;
+	}
+
+	/*Home(index) page*/
+	#cross1, #cross2 {
+		display: none;
+	}
+	#portrait {
+		margin-left: 14%;
+	}
+	#dad_home {
+		width: 200px;
+	}
+	#smallpics {
+		margin-left: 30%;
+	}
+	#dad69, #pastor_cake, #dad_jakir {
+		width: 105px;
+	}
+	#pic_cap1, #pic_cap2, #pic_cap3, #pic_cap4 {
+        font-size: 9pt;
+        font-style: italic;
+    }
+	#home_intro {
+		margin-top: 165%;
+	}
+	#link {
+		width: 150px;
+		margin-left: 16%;
+	}
+
+	/*About page*/
+	#all_columns {
+		margin-bottom: 1770%;
+	}
+	#column1, #column2, #column3 {
+		width: 298px;
+	}
+	#james_fishing {
+		width: 150px;
+	}
+	#superbee {
+		width: 150px;
+	}
+	#youngbrown {
+		width: 150px;
+	}
+	#mondoed {
+		width: 150px;
+	}
+	#framed {
+		width: 150px;
+	}
+	#momdad {
+		width: 150px;
+	}
+	#busdrive {
+		width: 150px;
+	}
+	#taxform {
+		width: 150px;
+	}
+	#dad_baby {
+		width: 150px;
+	}
+	#storepic {
+		width: 150px;
+	}
+	#marriage {
+		width: 245px;
+		float: right;
+	}
+	#chef_james {
+		width: 297px;
+	}
+	#dad_carve {
+		width: 150px;
+	}
+	#baptism {
+		width: 150px;
+	}
+	#church_service {
+		width: 150px;
+	}
+	#daddorothy {
+		width: 150px;
+	}
+
+	/*Hobbies page*/
+	#hobby_columns {
+		margin-bottom: 500%;
+	}
+	#hobby1, #hobby2, #hobby3 {
+		width: 315px;
+	}
+	#kimball {
+		width: 200px;
+		margin-left: -4%;
+		border: 1px solid black;
+	}
+	#cartech {
+		width: 200px;
+		margin-left: -4%;
+		border: 1px solid black;
+	}
+	#catering {
+		width: 200px;
+		margin-left: -4%;
+		border: 1px solid black;
+	}
+}
