@@ -8,154 +8,205 @@
     <meta name="keywords" content="web, development, csd, assignment, biography, james j brown jr, omaha">
     <meta name="robots" content="nofollow">
     <meta name="pragma" content="no-cache">
-	<link rel="stylesheet" href="biosite.css" media="screen">
-    <link rel="stylesheet" href="transfonter/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+	<!--<link rel="stylesheet" href="biosite.css" media="screen">-->
+    <!--<link rel="stylesheet" href="transfonter/stylesheet.css">-->
+
+    <style>
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+        body {
+	        background: linear-gradient(to bottom, #728FCE 0%,
+				#FFFFFF 100%);
+	        /*font-family:'PT Sans Narrow', Arial, sans-serif ;*/
+        }
+        header {
+            padding-bottom: 6px;
+	        padding-top: 3px;
+	        box-shadow: 0 5px 0px 0 rgba(7, 5, 5, 0.2);
+        }
+        footer {
+            font-family:'PT Sans Narrow', Arial, sans-serif;
+            padding: 5px;
+        }
+        a:link {
+	        color: #00FFFF;
+	        background-color: transparent;
+	        text-decoration: none;
+        }
+        a:visited {
+	        color: green;
+	        background-color: transparent;
+	        text-decoration: none;
+        }
+        a:hover {
+	        color: black;
+	        background-color: transparent;
+	        text-decoration: underline;
+        }
+        a:active {
+	        color: #EDDA74;
+	        background-color: transparent;
+	        text-decoration: underline;
+        }
+    </style>
   </head>
   <body>
     <div id="wrapper">
-        <header>
-            <h3>A Tribute To</h3>
-            <h1>Pastor James J Brown Jr</h1>
+        <header class="text-bg-warning">
+            <h3 class="container mt-3 text-center">A Tribute To</h3>
+            <h1 class="container mt-3 text-center">Pastor James J Brown Jr</h1>
         </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
+
+        <nav class="container mt-3">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
             </ul>
         </nav>
-        <h2>A Brief Biography</h2>
-        <div id="all_columns">
-            <div id="column1">
-                <h4>James' Early Years</h4>
-                <p><img id="james_fishing" src="images/kid_james_200.gif" alt="picture of James J Brown Jr at 13 years old">
-                    James J Brown Jr, known by family and friends as "Tie," was born on May 27, 1949 at University Hospital in Omaha, NE.  His father, James Sr, 
-                    was employed at the old Storz Brewery, while his mother, Alice, worked for Metropolitan Utilities
-                    District.  James held his father in high regard and aspired to follow in his footsteps to become a 
-                    minister. As a kid, he would walk around his neighborhood with a bible in hand, attempting to "preach
-                    the word" to the other kids, whom as he mentioned, were not amused.<br>  During his latter teenage years,
-                    James discovered the pastime of drag racing.  His car of choice was a 1967 Chevy Super Bee that could 
-                    reach a max speed of 170 miles per hour.<img id="superbee" src="images/chevy_super_bee_200.gif" alt="picture of 1967 Chevy Super Bee">  
-                    He won so many races that his friend, Marty, started calling him "Super Bee," or just "Bee," which 
-                    also coincided with his last name.  One of those races attracted the attention of the local police 
-                    and ended with James locked up in the city jail.  Too scared to call his father, he reached out to an 
-                    uncle who bailed him out and didn't tell his parents.<br>
-                    <h4>Politics & Education</h4>
-                    James went on to graduate from Omaha North High School and attend college at the University of Nebraska
-                    <img id="youngbrown" src="images/young_jb_200.gif" alt="picture of young James in college">
-                    at Omaha (UNO).  Unfortunately, the only class he says that he excelled in was Bid Whist.  Bid Whist was 
-                    one of his all-time favorite card games and he spent more time in the student area playing the game than 
-                    he did in class.  His time in college was during the height of the Civil Rights Movement and prior to the 
-                    passing of the Civil Rights Act.  James was very much into the movement and was interviewed , along with 
-                    other students, by the Omaha World-Herald when Dr. Martin Luther King Jr was assassinated.  It was also 
-                    James' desire to join the Black Panther Party for Self-Defense.  
-                    <img id="mondoed" src="images/David_Rice_Ed_Poindexter_150.gif" alt="picture of Rice and Poindexter in court">
-                    His cousin, Edward Poindexter, along with his friend, Mondo we Langa (formerly David Rice), were prominent 
-                    figures within Omaha's chapter of the Black Panthers, and leaders of another group they formed called the 
-                    National Committee to Combat Fascism (NCCF).  
-                    <img id="framed" src="images/framed_cover_150.gif" alt="picture of Framed book cover by michael richardson">
-                    Both men were convicted in the early 1970's for the murder of Omaha Police officer Larry Minard, for 
-                    which they were framed.  Edward was James' older cousin, and although they hung out together, Edward 
-                    would not let James join the Panthers.  He used to tell him, "Aunt Alice would kill me if something 
-                    happened to you!"**
-                </p>
-                <br>
-                <p class="bpp_links">
-                    **For more information on Mondo and Ed, please visit the following sites:<br>
-                    <a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?font=Default&height=1000&initial_zoom=2&lang=en&source=1mvEQEeExy5_yqQex1hf9q_Vb7NzGhvQzvur99szsFU4&timenav_height=0&width=100%25" target="_blank">
+
+        <h2 class="mt-3 text-center">A Brief Biography</h2>
+        <div class="container mt-3">
+            <h4>James' Early Years</h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><img class="figure-img img-fluid border-dark" style="float: left; padding: 3px;" src="images/kid_james_200.gif" alt="picture of James J Brown Jr at 13 years old">
+                        James J Brown Jr, known by family and friends as "Tie," was born on May 27, 1949 at University Hospital in Omaha, NE.  His father, James Sr, 
+                        was employed at the old Storz Brewery, while his mother, Alice, worked for Metropolitan Utilities
+                        District.  James held his father in high regard and aspired to follow in his footsteps to become a 
+                        minister. As a kid, he would walk around his neighborhood with a bible in hand, attempting to "preach
+                        the word" to the other kids, whom as he mentioned, were not amused.<br>  During his latter teenage years,
+                        James discovered the pastime of drag racing.  His car of choice was a 1967 Chevy Super Bee that could 
+                        reach a max speed of 170 miles per hour.<img class="figure-img img-fluid" style="float: right; padding: 3px;" src="images/chevy_super_bee_200.gif" alt="picture of 1967 Chevy Super Bee">  
+                        He won so many races that his friend, Marty, started calling him "Super Bee," or just "Bee," which 
+                        also coincided with his last name.  One of those races attracted the attention of the local police 
+                        and ended with James locked up in the city jail.  Too scared to call his father, he reached out to an 
+                        uncle who bailed him out and didn't tell his parents.<br>
+                        <h4>Politics & Education</h4>
+                        James went on to graduate from Omaha North High School and attend college at the University of Nebraska
+                        <img id="figure-img img-fluid" src="images/young_jb_200.gif" style="float: left; width: 65%; padding: 3px;" alt="picture of young James in college">
+                        at Omaha (UNO).  Unfortunately, the only class he says that he excelled in was Bid Whist.  Bid Whist was 
+                        one of his all-time favorite card games and he spent more time in the student area playing the game than 
+                        he did in class.  His time in college was during the height of the Civil Rights Movement and prior to the 
+                        passing of the Civil Rights Act.  James was very much into the movement and was interviewed , along with 
+                        other students, by the Omaha World-Herald when Dr. Martin Luther King Jr was assassinated.  It was also 
+                        James' desire to join the Black Panther Party for Self-Defense.  
+                        <img class="figure-img img-fluid" src="images/David_Rice_Ed_Poindexter_150.gif" style="float: right; padding: 3px;" alt="picture of Rice and Poindexter in court">
+                        His cousin, Edward Poindexter, along with his friend, Mondo we Langa (formerly David Rice), were prominent 
+                        figures within Omaha's chapter of the Black Panthers, and leaders of another group they formed called the 
+                        National Committee to Combat Fascism (NCCF).  
+                        <img class="figure-img img-fluid" src="images/framed_cover_150.gif" style="float: left; padding: 3px;" alt="picture of Framed book cover by michael richardson">
+                        Both men were convicted in the early 1970's for the murder of Omaha Police officer Larry Minard, for 
+                        which they were framed.  Edward was James' older cousin, and although they hung out together, Edward 
+                        would not let James join the Panthers.  He used to tell him, "Aunt Alice would kill me if something 
+                        happened to you!"**
+                    </p>
+                    <br>
+                    <p class="container mt=3 text-center">
+                        **For more information on Mondo and Ed, please visit the following sites:<br>
+                        <a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?font=Default&height=1000&initial_zoom=2&lang=en&source=1mvEQEeExy5_yqQex1hf9q_Vb7NzGhvQzvur99szsFU4&timenav_height=0&width=100%25" 
+                           class="alert-link" target="_blank">
                         A Timeline and detailed articles</a><br>
-                    <a href="https://4urban.org/4-pillars/community-engagement" target="_blank">FreeEdwardPoindexter.com</a>
-                </p>
-                <h4>First Love</h4>
-                <p><img id="momdad" src="images/mom_dad_200.gif" alt="picture of james and first wife patricia">
-                   It was also in the early 70's that James married his first love interest, who was a young woman that lived 
-                   on the next block named Patricia Hoof.  From this union came a baby boy, James J Brown III, in 1971, named 
-                   after his father and grandfather.  Unfortunately, their marriage would be short-lived, as James and Patricia 
-                   were divorced in 1975.
-                </p>
-            </div>
-            <div id="column2">
-                <h4>Many Talents</h4>
-                <p><img id="dad_baby" src="images/Grandpa_200.gif" alt="picture of James J Brown junior holding a baby">
-                    After his stint in college, James went on to hold several different jobs throughout his life.  One of his
-                    earliest jobs was what he called "lugging beef" at one of the many packing houses that existed in south
-                    Omaha at the time.  In those days, the packing houses were a source of employment for working-class men.  
-                    James ended up being fired and black-balled from working at the packing houses for expressing his political 
-                    views on the job.<br>  From there, he went on to earn a class
-                    <img id="busdrive" src="images/Bus-Driving_200.gif" alt="picture of James J Brown junior in front of school bus">
-                    B Commercial Drivers License and started working for Omaha Public Schools Transportation as a bus driver.  
-                    And although he didn't finish college, his training in psychology helped him land a position as a Resident 
-                    Manager with ENCOR (Eastern Nebraska Community Office of Retardation), now called DUET.  So, from the mid-70's into the late 80's, he drove school bus during the
-                    <img id="taxform" src="images/1040_form_200.gif" alt="picture of tax form ten forty"> day, and 
-                    managed houses of special-needs children and adults at night.  Prior to holding these jobs, James 
-                    had also become a certified tax preparer, so he would always make extra money preparing taxes for family and 
-                    friends.<br>
-                    It was also during this period that James discovered his second chance at love with a woman named Dorothy Mae
-                    Wright, who was a long-time member of his father's church.  After a lengthy courtship, James and Dorothy were
-                    <img id="marriage" src="images/wedding_300.gif">
-                    joined in marriage in the summer of 1986.  They didn't produce any children together, but became a combined
-                    family, including James' son, James III, and Dorothy's two sons, Clifford and Herbert.  James and Dorothy would
-                    go on to spend the next 30 years as a happy couple.  And due to the amount of extended family, James and Dorothy
-                    would go on to start an every-other-year tradition of renting out a local venue to hold a large Thanksgiving
-                    dinner. 
-                    <h4>Service To Others</h4> 
-                    After leaving those jobs, Pastor Brown went on to work for the 7-Eleven stores and eventually became
-                    the area manager over the north Omaha locations.<img id="storepic" src="images/JB_7Eleven_200.gif" alt="picture of James working at 7 eleven">  
-                    It was during this time that James connected with many of north Omaha's youth in an effort to guide young 
-                    men toward the right direction.  After years with 7-Eleven, Mr. Brown become a youth counselor at the 
-                    original north branch location of the YMCA Community Center, and toward the end of the 90's, he utilized 
-                    his class B CDL to drive trucks for Deffenbaugh and Waste Management.  Did I mention that Mr. Brown was 
-                    also licensed to sell life insurance?  A man of so many talents causes one to wonder if any of these 
-                    were his passion, or if they were just jobs to make ends meet until fulfilling a dream?
-                    <h4>The Passion Of James</h4>
-                    <img id="chef_james" src="images/chef_dad_430.gif" alt="James J Brown junior catering an event"> 
-                </p>
-            </div>
-            <div id="column3">
-                <p>
-                    Regardless to the various skill sets that James possessed, he took the most pride in his ability to cook and bake. 
-                    <img id="dad_carve" src="images/cook_james_200.gif" alt="picture James J Brown junior carving a turkey"> 
-                    Whereas most people credit their mother or grandmother for passing down cooking skills, James gives that credit to 
-                    a woman named Sarah Evans. The late Mrs. Evans was a master cook in the kitchen and she passed on her knowledge of 
-                    cooking and the delicate art of baking to James.  He went on to perfect those skills to the point of confidently 
-                    bragging about them, and if put to the test, he would show you better than he could tell you!  There were many
-                    people who loved his food, but they really went crazy over his baked goods.  The holiday season was his busiest time,
-                    as he would have to fill many orders for his chocolate chip cookies (with secret ingredients), chocolate-covered 
-                    peanut clusters, and his fluffy, yet decadent, three-tiered, german chocolate cake.  James' ultimate goal was to own
-                    his own restaurant, but until then, he would proceed with starting a catering business. 
-                    <h4>A Man Of Faith</h4> 
-                    The only other element of James' life that he also poured his passion into was that of being a minister.  James states
-                    <img id="baptism" src="images/baptize_200.gif" alt="picture of pastor brown conducting baptism"> 
-                    that he was called to the ministry by God at the age of 21.  To become a minister, one must go through an Ordination, 
-                    where the person desiring to be a minister sits in front of a committee of ministers who quizzes the person on different 
-                    aspects of the Bible and the religion itself.  Whether the questions are answered correctly or not determines if you are 
-                    adequate to preach the word. This is the traditional process that James went through, and he looks down on people
-                    <img id="church_service" src="images/Rev-Brown_200.gif" alt="picture of pastor brown conducting service">
-                    going online and instantly becoming an ordained minister, which he says is not official.  His duties in the church, 
-                    first and foremost, was to study and prepare sermons to deliver when called upon by the Pastor.  He also taught the 
-                    intermediate Sunday school class (13-17yr old) and took over working with the choir when his mother retired.  After
-                    his father's passing, James took over as head pastor of the church.  Unfortunately, the elements and vandalism 
-                    destroyed the physical building.  At one point, James was running his catering business and church service out of
-                    <img id="daddorothy" src="images/husband_wife_200.gif" alt="picture of James and his wife Dorothy">
-                    his home in north Omaha.  He eventually located a plot of land along north 24th Street and began plans to erect a 
-                    building that would be the new home of Calvary Baptist Church.  Sadly, Pastor Brown did not get to bring these 
-                    plans to fruition, nor was he able to continue to grow his catering business.  After his wife passed away in 2017,
-                    his health began to decline as well, and three years later, Pastor Brown lost his battle with cancer and passed
-                    on June 1, 2020.  Pastor James J Brown Jr had few regrets, but overall, he said that his faith caused him to 
-                    believe that everything happened the way it was supposed to, according to God's plan.
-                </p>
+                        <a href="https://4urban.org/4-pillars/community-engagement" class="alert-link" target="_blank">FreeEdward<br>Poindexter.com</a>
+                    </p>
+                    <h4>First Love</h4>
+                    <p><img class="figure-img img-fluid" src="images/mom_dad_200.gif" style="float: left; padding: 3px;" alt="picture of james and first wife patricia">
+                        It was also in the early 70's that James married his first love interest, who was a young woman that lived 
+                        on the next block named Patricia Hoof.  From this union came a baby boy, James J Brown III, in 1971, named 
+                        after his father and grandfather.  Unfortunately, their marriage would be short-lived, as James and Patricia 
+                        were divorced in 1975.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p><img class="figure-img img-fluid" src="images/Grandpa_200.gif" style="float: right; padding: 3px;" alt="picture of James J Brown junior holding a baby">
+                        After his stint in college, James went on to hold several different jobs throughout his life.  One of his
+                        earliest jobs was what he called "lugging beef" at one of the many packing houses that existed in south
+                        Omaha at the time.  In those days, the packing houses were a source of employment for working-class men.  
+                        James ended up being fired and black-balled from working at the packing houses for expressing his political 
+                        views on the job.<br>  From there, he went on to earn a class
+                        <img class="figure-img img-fluid" src="images/Bus-Driving_200.gif" style="float: left; padding: 3px;" alt="picture of James J Brown junior in front of school bus">
+                        B Commercial Drivers License and started working for Omaha Public Schools Transportation as a bus driver.  
+                        And although he didn't finish college, his training in psychology helped him land a position as a Resident 
+                        Manager with ENCOR (Eastern Nebraska Community Office of Retardation), now called DUET.  So, from the mid-70's into the late 80's, he drove school bus during the
+                        <img class="figure-img img-fluid" src="images/1040_form_200.gif" style="float: left; padding: 3px;" alt="picture of tax form ten forty"> day, and 
+                        managed houses of special-needs children and adults at night.  Prior to holding these jobs, James 
+                        had also become a certified tax preparer, so he would always make extra money preparing taxes for family and 
+                        friends.<br>
+                        It was also during this period that James discovered his second chance at love with a woman named Dorothy Mae
+                        Wright, who was a long-time member of his father's church.  After a lengthy courtship, James and Dorothy were
+                        <img class="figure-img img-fluid" src="images/wedding_300.gif" style="float: left; width: 100%; padding: 3px;" alt="james and dorothy's wedding">
+                        joined in marriage in the summer of 1986.  They didn't produce any children together, but became a combined
+                        family, including James' son, James III, and Dorothy's two sons, Clifford and Herbert.  James and Dorothy would
+                        go on to spend the next 30 years as a happy couple.  And due to the amount of extended family, James and Dorothy
+                        would go on to start an every-other-year tradition of renting out a local venue to hold a large Thanksgiving
+                        dinner. 
+                        <h4>Service To Others</h4> 
+                        After leaving those jobs, Pastor Brown went on to work for the 7-Eleven stores and eventually became
+                        the area manager over the north Omaha locations.<img class="figure-img img-fluid" src="images/JB_7Eleven_200.gif" style="float: left; padding: 3px;" alt="picture of James working at 7 eleven">  
+                        It was during this time that James connected with many of north Omaha's youth in an effort to guide young 
+                        men toward the right direction.  After years with 7-Eleven, Mr. Brown become a youth counselor at the 
+                        original north branch location of the YMCA Community Center, and toward the end of the 90's, he utilized 
+                        his class B CDL to drive trucks for Deffenbaugh and Waste Management.  Did I mention that Mr. Brown was 
+                        also licensed to sell life insurance?  A man of so many talents causes one to wonder if any of these 
+                        were his passion, or if they were just jobs to make ends meet until fulfilling a dream?<br><br>
+                        <h4>The Passion Of James</h4>
+                        <img class="figure-img img-fluid" src="images/chef_dad_430.gif" style="padding: 3px;"  alt="James J Brown junior catering an event"><br>
+                        Regardless to the various skill sets that James possessed, he took the most pride in his ability to cook and bake.
+                        Whereas most people credit their mother or grandmother for passing down cooking skills, James gives that credit to
+                        a woman named Sarah Evans. The late Mrs. Evans was a master cook in the kitchen and she passed on her
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        <img class="figure-img img-fluid" src="images/cook_james_200.gif" style="float: right; padding: 3px;" alt="picture James J Brown junior carving a turkey"> 
+                        knowledge of cooking and the delicate art of baking to James.  He went on to perfect those skills to the point of confidently 
+                        bragging about them, and if put to the test, he would show you better than he could tell you!  There were many
+                        people who loved his food, but they really went crazy over his baked goods.  The holiday season was his busiest time,
+                        as he would have to fill many orders for his chocolate chip cookies (with secret ingredients), chocolate-covered 
+                        peanut clusters, and his fluffy, yet decadent, three-tiered, german chocolate cake.  James' ultimate goal was to own
+                        his own restaurant, but until then, he would proceed with starting a catering business. 
+                        <h4>A Man Of Faith</h4> 
+                        The only other element of James' life that he also poured his passion into was that of being a minister.  James states
+                        <img class="figure-img img-fluid" src="images/baptize_200.gif" style="float: left; padding: 3px;" alt="picture of pastor brown conducting baptism"> 
+                        that he was called to the ministry by God at the age of 21.  To become a minister, one must go through an Ordination, 
+                        where the person desiring to be a minister sits in front of a committee of ministers who quizzes the person on different 
+                        aspects of the Bible and the religion itself.  Whether the questions are answered correctly or not determines if you are 
+                        adequate to preach the word. This is the traditional process that James went through, and he looks down on people
+                        <img class="figure-img img-fluid" src="images/Rev-Brown_200.gif" style="float: right; padding: 3px;" alt="picture of pastor brown conducting service">
+                        going online and instantly becoming an ordained minister, which he says is not official.  His duties in the church, 
+                        first and foremost, was to study and prepare sermons to deliver when called upon by the Pastor.  He also taught the 
+                        intermediate Sunday school class (13-17yr old) and took over working with the choir when his mother retired.  After
+                        his father's passing, James took over as head pastor of the church.  Unfortunately, the elements and vandalism 
+                        destroyed the physical building.  At one point, James was running his catering business and church service out of
+                        <img class="figure-img img-fluid" src="images/husband_wife_200.gif" style="float: left; padding: 3px;" alt="picture of James and his wife Dorothy">
+                        his home in north Omaha.  He eventually located a plot of land along north 24th Street and began plans to erect a 
+                        building that would be the new home of Calvary Baptist Church.  Sadly, Pastor Brown did not get to bring these 
+                        plans to fruition, nor was he able to continue to grow his catering business.  After his wife passed away in 2017,
+                        his health began to decline as well, and three years later, Pastor Brown lost his battle with cancer and passed
+                        on June 1, 2020.  Pastor James J Brown Jr had few regrets, but overall, he said that his faith caused him to 
+                        believe that everything happened the way it was supposed to, according to God's plan.
+                    </p>
+                    <figure class="figure">
+                        <img class="figure-img img-fluid" src="images/GrandParents.jpg" alt="picture of james' parents">
+                        <figcaption class="figcaption mt-3 text-center"><small>Pastor James J. Brown Sr. and his wife, Alice Brown-James' parents</small></figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="hobbies.html">Hobbies</a></li>
+        <footer class="text-bg-warning">
+            <nav class="container mt-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item small"><a class="nav-link" href="index.html"><small>Home</small></a></li>
+                    <li class="nav-item small"><a class="nav-link" href="about.html"><small>About</small></a></li>
+                    <li class="nav-item small"><a class="nav-link" href="hobbies.html"><small>Hobbies</small></a></li>
                 </ul>
             </nav>
-            <p>Copyright &copy; 2022-2023 RKO Media, Inc. All Rights Reserved</p>
-            <p>Created by: James J Brown III</p>
+            <p class="mt-3 text-center"><small>Copyright &copy; 2022-2023 RKO Media, Inc. All Rights Reserved</small></p>
+            <p class="mt-3 text-center"><small>Created by: James J Brown III</small></p>
         </footer>
     </div>
   </body>

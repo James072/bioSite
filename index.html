@@ -9,48 +9,110 @@
     <meta name="keywords" content="web, development, csd, assignment, biography, james j brown jr, omaha">
     <meta name="robots" content="nofollow">
     <meta name="pragma" content="no-cache">
-	<link rel="stylesheet" href="biosite.css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+	<!--<link rel="stylesheet" href="biosite.css" media="screen">-->
     <link rel="stylesheet" href="transfonter/stylesheet.css">
+
+    <style>
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+        body {
+	        background: linear-gradient(to bottom, #728FCE 0%,
+				#FFFFFF 100%);
+	        /*font-family:'PT Sans Narrow', Arial, sans-serif ;*/
+        }
+        header {
+            padding-bottom: 6px;
+	        padding-top: 3px;
+	        box-shadow: 0 5px 0px 0 rgba(7, 5, 5, 0.2);
+        }
+        footer {
+            font-family:'PT Sans Narrow', Arial, sans-serif;
+            padding: 5px;
+        }
+        a:link {
+	        color: #00FFFF;
+	        background-color: transparent;
+	        text-decoration: none;
+        }
+        a:visited {
+	        color: green;
+	        background-color: transparent;
+	        text-decoration: none;
+        }
+        a:hover {
+	        color: black;
+	        background-color: transparent;
+	        text-decoration: underline;
+        }
+        a:active {
+	        color: #EDDA74;
+	        background-color: transparent;
+	        text-decoration: underline;
+        }
+    </style>
   </head>
     <body>
         <div id="wrapper">
-            <header>
-                <h3>A Tribute To</h3>
-                <h1>Pastor James J Brown Jr</h1>
+            <header class="text-bg-warning">
+                <h4 class="container mt-3 text-center">A Tribute To</h4>
+                <h1 class="container mt-3 text-center">Pastor James J Brown Jr</h1>
             </header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="hobbies.html">Hobbies</a></li>
+
+            <nav class="container mt-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
                 </ul>
             </nav>
-            <h2>Welcome!</h2>
-            <img id="cross1" src="images/clear_cross_250.gif" alt="picture of a clear cross with a rose on it">
-            <img id="cross2" src="images/clear_cross_250.gif" alt="picture of a clear cross with a rose on it">
 
-            <div id="portrait">
-                <img id="dad_home" src="images/pastor_brown_400.gif" alt="a portrait of james j brown junior"><br>
-                <p id="pic_cap1">Pastor James J Brown Jr</p>
+            <h2 class="mt-3 text-center">Welcome</h2>
+
+            <div class="container mt-3">
+                <img src="images/clear_cross_250.gif" class="float-start img-fluid" style="width: 25%;" alt="picture of a clear cross with a rose on it">
+            </div>
+            <div class="container mt-3">
+                <img src="images/clear_cross_250.gif" class="float-end img-fluid" style="width: 25%;" alt="picture of a clear cross with a rose on it">
             </div>
 
-            <div id="smallpics">
-                <div id="small_pic1">
-                    <img id="dad69" src="images/dad_200.gif" alt="picture of james j brown junior on his sixty ninth birthday"><br>
-                    <p id="pic_cap2">James on his 69th birthday.</p>
+            <div class="container mt-3">
+                <div class="row">
+                    <figure class="figure">
+                        <img class="figure-img img-fluid mx-auto d-block" src="images/pastor_brown_400.gif" style="width:75%; border: 15px ridge #6f4e37;" alt="a portrait of james j brown junior">
+                        <figcaption class="figure-caption mt-3 text-center">Pastor James J Brown Jr</figcaption>
+                    </figure>
                 </div>
-                <div id="small_pic2">        
-                    <img id="pastor_cake" src="images/Pastor_Cake_200.gif" alt="picture of a cake made for pastor brown"><br>
-                    <p id="pic_cap3">A cake for Pastor Appreciation.</p>
-                </div> 
-                <div id="small_pic3">   
-                    <img id="dad_jakir" src="images/Grandpa_Grandson_200.gif" alt="picture of james j brown junior and his grandson"><br>
-                    <p id="pic_cap4">James with his grandson, Jakir.</p>
+            </div>
+
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="column">
+                        <figure class="figure">
+                            <img class="figure-img img-fluid" src="images/dad_200.gif" style="border: 1px solid black;" alt="picture of james j brown junior on his sixty ninth birthday">
+                            <figcaption class="figure-caption">James on his 69th birthday.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure class="figure">
+                            <img class="figure-img img-fluid" src="images/Pastor_Cake_200.gif" style="border: 1px solid black;" alt="picture of a cake made for pastor brown">
+                            <figcaption class="figure-caption">A cake for Pastor Appreciation.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure class="figure">  
+                            <img class="figure-img img-fluid" src="images/Grandpa_Grandson_200.gif" style="border: 1px solid black;" alt="picture of james j brown junior and his grandson">
+                            <figcaption class="figure-caption">James with his grandson, Jakir.</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
             
-            <div id="home_intro">
-                <p id="home_pgrph">
+            <div class="container mt-3">
+                <p class="mt-3 text-center">
                     Pastor James J Brown Jr is a native of Omaha, Nebraska and has lived there for the majority of his life. His father, 
                     Pastor James J Brown Sr, started his own church in Council Bluffs, Iowa called Calvary Baptist Church, where James 
                     served as an associate minister, later to serve in the roles of assistant pastor, and eventually head pastor after 
@@ -65,22 +127,22 @@
                     in his father’s Baptist church, pastoring an AME church (African-Methodist-Episcopal) every second and fourth 
                     Sunday, or singing in a Seventh-Day Adventist men’s chorus, he exercised the principles and reflected within himself 
                     the qualities of being a man of God and the people.<br><br>
-                    <div id="link">
+                    <div class="mt-3 text-center">
                         To learn more about Mr. Brown, visit his Facebook page<br>
-                        <a href="https://www.facebook.com/tie.brown.54" target="blank">Tie Brown</a>
+                        <a href="https://www.facebook.com/tie.brown.54" class="alert-link" target="blank">Tie Brown</a>
                     </div>
                 </p>
             </div>
-            <footer>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="hobbies.html">Hobbies</a></li>
+            <footer class="text-bg-warning">
+                <nav class="container mt-3">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item small"><a class="nav-link" href="index.html"><small>Home</small></a></li>
+                        <li class="nav-item small"><a class="nav-link" href="about.html"><small>About</small></a></li>
+                        <li class="nav-item small"><a class="nav-link" href="hobbies.html"><small>Hobbies</small></a></li>
                     </ul>
                 </nav>
-                <p>Copyright &copy; 2022-2023 RKO Media, Inc. All Rights Reserved</p>
-                <p>Created by: James J Brown III</p>
+                <p class="mt-3 text-center"><small>Copyright &copy; 2022-2023 RKO Media, Inc. All Rights Reserved</small></p>
+                <p class="mt-3 text-center"><small>Created by: James J Brown III</small></p>
             </footer>
         </div>
     </body>

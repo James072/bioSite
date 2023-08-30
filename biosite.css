@@ -5,52 +5,52 @@ body {
 				#FFFFFF 100%);
 	font-family:'PT Sans Narrow', Arial, sans-serif ;
 }
-/*default div for responsiveness*/
+/*default div for responsiveness
 #wrapper {
     margin-right: 40px;
 	margin-left: 40px;
 	/*margin: auto;
-	height: auto;*/
+	height: auto;
 	position: relative;
 	background-color: #728FCE;
 	box-shadow: 5px 5px 5px #666666;
-}
+}*/
 /*default header*/
 header {
-	line-height: 0.3;
-	background-color: #EDDA74;
+	/*line-height: 0.3;
+	background-color: #EDDA74;*/
 	padding-bottom: 6px;
 	padding-top: 3px;
 	box-shadow: 0 5px 0px 0 rgba(7, 5, 5, 0.2);
 }
 /*default heading 1*/
 h1 {
-	width: 480px;
-	text-align: center;
+	/*width: 480px;
+	text-align: center;*/
 	font-family:'Herr Von Muellerhoff', Arial, sans-serif;
-	font-size: 48pt;
+	/*font-size: 48pt;
 	font-weight: 400;
-	margin-left: 33%;
+	margin-left: 30%;*/
 }
 /*default heading 2*/
 h2 {
-	width: 320px;
-	text-align: center;
+	/*width: 320px;
+	text-align: center;*/
 	font-family:'PT Sans Narrow', Arial, sans-serif ;
 	font-size: 32pt;
 	font-weight: bold;
-	margin-left: 38%;
+	/*margin-left: 38%;*/
 }
 /*default heading 3*/
 h3 {
-	width: 110px;
-    text-align: center;
+	/*width: 110px;
+    text-align: center;*/
 	font-family:'PT Sans Narrow', Arial, sans-serif ;
 	font-weight: bold;
-	margin-left: 45.5%;
+	/*margin-left: 45.5%;*/
 }
 /*default navigation*/
-nav {
+/*nav {
 	margin-left: 41%;
 	text-align: center;
 	color: #00FFFF;
@@ -67,7 +67,7 @@ nav ul li {
 	font-size: 12pt;
 	display: inline;
 	margin: .5em;
-}
+}*/
 
 a:link {
 	color: #00FFFF;
@@ -91,7 +91,7 @@ a:active {
 }
 
 /*specific to index (home) page*/
-#cross1 {
+/*#cross1 {
 	float: left;
 	margin-left: 20px;
 }
@@ -131,10 +131,10 @@ a:active {
 #home_intro {
     margin-left: 37px;
     margin-right: 37px;
-	margin-top: 20%;
+	margin-top: 23%;
 	text-align: center;
 	line-height: 1.6;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	font-family:'PT Sans Narrow', Arial, sans-serif ;
 }
 #link {
@@ -148,14 +148,14 @@ a:active {
 /*default footer*/
 footer {
 	font-family:'PT Sans Narrow', Arial, sans-serif ;
-	font-size: 0.70em;
+	/*font-size: 0.70em;
 	text-align: center;
 	font-style: italic;
 	padding: 5px;
 	margin-left: 0;
-	background-color: #EDDA74;
+	background-color: #EDDA74;*/
 }
-footer nav ul li {
+/*footer nav ul li {
 	padding: 10px;
 	font-size: 0.90em;
 }
@@ -175,7 +175,7 @@ footer nav ul li a:hover {
 	text-decoration: underline;
 }
 
-/*About page*/
+/*About page
 #all_columns {
     margin-bottom: 133%;
     margin-left: 1%;
@@ -283,7 +283,7 @@ footer nav ul li a:hover {
 	float: right;
 }
 
-/*Hobbies page*/
+Hobbies page
 #hobby_columns {
     margin-bottom: 60%;
     margin-left: 1%;
@@ -323,7 +323,7 @@ footer nav ul li a:hover {
 
 @media only screen and (min-width: 1201px) and (max-width: 1376px) {
 	h1 {
-		margin-left: 30%;
+		margin-left: 40%;
 	}
 	h2 {
 		margin-left: 37%;
@@ -341,7 +341,7 @@ footer nav ul li a:hover {
 		margin-top: 30%;
 	}
 
-	/*About page*/
+	About page
 	#all_columns {
 		margin-bottom: 180%;
 	}
@@ -398,7 +398,7 @@ footer nav ul li a:hover {
 		width: 175px;
 	}
 
-	/*Hobbies page*/
+	Hobbies page
 	#hobby_columns {
 		margin-bottom: 65%;
 	}
@@ -433,7 +433,7 @@ footer nav ul li a:hover {
 		margin-left: 39%;
 	}
 
-	/*Home(index) page*/
+	/*Home(index) page
 	#cross1, #cross2 {
 		width: 180px;
 		height: 515px;
@@ -455,7 +455,7 @@ footer nav ul li a:hover {
 		margin-top: 30%;
 	}
 
-	/*About page*/
+	/*About page
 	#all_columns {
 		margin-bottom: 240%;
 	}
@@ -512,7 +512,7 @@ footer nav ul li a:hover {
 		width: 165px;
 	}
 
-	/*Hobbies page*/
+	/*Hobbies page
 	#hobby_columns {
 		margin-bottom: 80%;
 	}
@@ -539,7 +539,7 @@ footer nav ul li a:hover {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 	h1 {
-		margin-left: 14.5%;
+		margin-left: 5%;
 	}
 	h2 {
 		margin-left: 25.5%;
@@ -580,7 +580,7 @@ footer nav ul li a:hover {
 		margin-left: 49%;
 	}
 	
-	/*About page*/
+	/*About page
 	#all_columns {
 		margin-left: 13%;
 		margin-bottom: 630%;
@@ -592,7 +592,7 @@ footer nav ul li a:hover {
 		float: right;
 	}
 
-	/*Hobbies page*/
+	/*Hobbies page
 	#hobby_columns {
 		margin-left: 17%;
 		margin-bottom: 270%;
@@ -613,13 +613,13 @@ footer nav ul li a:hover {
 		margin-left: 16%;
 	}
 	h3 {
-		margin-left: 35%;
+		margin-left: 38%;
 		font-size: 12pt;
 	}
 	nav {
 		margin-left: 23.5%;
 	}
-	/*Home(index) page*/
+	/*Home(index) page
 	#cross1, #cross2 {
 		display: none;
 	}
@@ -643,53 +643,53 @@ footer nav ul li a:hover {
         font-style: italic;
     }
 	#home_intro {
-		margin-top: 83%;
+		margin-top: 84%;
 	}
 	#link {
-		margin-left: 36%;
+		margin-left: 28%;
 	}
 
-	/*About page*/
+	/*About page
 	#all_columns {
-		margin-left: 5%;
-		margin-bottom: 1005%;
+		margin-left: 3%;
+		margin-bottom: 1050%;
 	}
 
-	/*Hobbies page*/
+	/*Hobbies page
 	#hobby_columns {
-		margin-left: 5%;
-		margin-bottom: 385%;
+		margin-left: 3%;
+		margin-bottom: 395%;
 	}
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 412px) and (max-width: 480px) {
 	#wrapper {
 		margin: 0;
 		border-collapse: collapse;
 		box-shadow: none;
 	}
 	h1 {
-		font-size: 28pt;
-		margin-left: -25%;
+		font-size: 24pt;
+		margin-left: -10%;
 	}
 	h2 {
 		font-size: 28pt;
-		margin-left: -.5%;
+		margin-left: 9.5%;
 	}
 	h3 {
 		font-size: 10pt;
-		margin-left: 31%;
+		margin-left: 35%;
 	}
 	nav {
-		margin-left: 12%;
+		margin-left: 20%;
 	}
 
-	/*Home(index) page*/
+	/*Home(index) page
 	#cross1, #cross2 {
 		display: none;
 	}
 	#portrait {
-		margin-left: 14%;
+		margin-left: 20%;
 	}
 	#dad_home {
 		width: 200px;
@@ -698,7 +698,7 @@ footer nav ul li a:hover {
 		margin-left: 30%;
 	}
 	#dad69, #pastor_cake, #dad_jakir {
-		width: 105px;
+		width: 135px;
 	}
 	#pic_cap1, #pic_cap2, #pic_cap3, #pic_cap4 {
         font-size: 9pt;
@@ -709,15 +709,15 @@ footer nav ul li a:hover {
 	}
 	#link {
 		width: 150px;
-		margin-left: 16%;
+		margin-left: 28%;
 	}
 
-	/*About page*/
+	/*About page
 	#all_columns {
-		margin-bottom: 1770%;
+		margin-bottom: 1200%;
 	}
 	#column1, #column2, #column3 {
-		width: 298px;
+		width: 365px;
 	}
 	#james_fishing {
 		width: 150px;
@@ -750,11 +750,11 @@ footer nav ul li a:hover {
 		width: 150px;
 	}
 	#marriage {
-		width: 245px;
+		width: 215px;
 		float: right;
 	}
 	#chef_james {
-		width: 297px;
+		width: 364px;
 	}
 	#dad_carve {
 		width: 150px;
@@ -769,12 +769,146 @@ footer nav ul li a:hover {
 		width: 150px;
 	}
 
-	/*Hobbies page*/
+	/*Hobbies page
 	#hobby_columns {
-		margin-bottom: 500%;
+		margin-left: 3%;
+		margin-bottom: 405%;
 	}
 	#hobby1, #hobby2, #hobby3 {
-		width: 315px;
+		width: 366px;
+	}
+	#kimball {
+		width: 250px;
+		margin-left: -1%;
+		border: 1px solid black;
+	}
+	#cartech {
+		width: 250px;
+		margin-left: -1%;
+		border: 1px solid black;
+	}
+	#catering {
+		width: 250px;
+		margin-left: -1%;
+		border: 1px solid black;
+	}
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 411px) {
+	#wrapper {
+		margin: 0;
+		border-collapse: collapse;
+		box-shadow: none;
+	}
+	h1 {
+		font-size: 24pt;
+		margin-left: -28%;
+	}
+	h2 {
+		font-size: 28pt;
+		margin-left: -3%;
+	}
+	h3 {
+		font-size: 10pt;
+		margin-left: 31%;
+	}
+	nav {
+		margin-left: 10%;
+	}
+
+	/*Home(index) page
+	#cross1, #cross2 {
+		display: none;
+	}
+	#portrait {
+		margin-left: 13%;
+	}
+	#dad_home {
+		width: 200px;
+	}
+	#smallpics {
+		margin-left: 30%;
+	}
+	#dad69, #pastor_cake, #dad_jakir {
+		width: 105px;
+	}
+	#pic_cap1, #pic_cap2, #pic_cap3, #pic_cap4 {
+        font-size: 9pt;
+        font-style: italic;
+    }
+	#home_intro {
+		margin-top: 165%;
+	}
+	#link {
+		width: 150px;
+		margin-left: 16%;
+	}
+
+	/*About page
+	#all_columns {
+		margin-bottom: 1990%;
+	}
+	#column1, #column2, #column3 {
+		width: 278px;
+	}
+	#james_fishing {
+		width: 150px;
+	}
+	#superbee {
+		width: 150px;
+	}
+	#youngbrown {
+		width: 150px;
+	}
+	#mondoed {
+		width: 150px;
+	}
+	#framed {
+		width: 150px;
+	}
+	#momdad {
+		width: 150px;
+	}
+	#busdrive {
+		width: 150px;
+	}
+	#taxform {
+		width: 150px;
+	}
+	#dad_baby {
+		width: 150px;
+	}
+	#storepic {
+		width: 150px;
+	}
+	#marriage {
+		width: 215px;
+		float: right;
+	}
+	#chef_james {
+		width: 277px;
+	}
+	#dad_carve {
+		width: 150px;
+	}
+	#baptism {
+		width: 150px;
+	}
+	#church_service {
+		width: 150px;
+	}
+	#daddorothy {
+		width: 150px;
+	}
+
+	/*Hobbies page
+	#hobby_columns {
+		margin-bottom: 550%;
+	}
+	#hobby1, #hobby2, #hobby3 {
+		width: 296px;
 	}
 	#kimball {
 		width: 200px;
@@ -790,5 +924,60 @@ footer nav ul li a:hover {
 		width: 200px;
 		margin-left: -4%;
 		border: 1px solid black;
+	}
+}
+@media only screen and (min-width: 915px) and (orientation: landscape) {
+	h1 {
+		margin-left: 19%;
+	}
+	h2 {
+		margin-left: 30%;
+	}
+	h3 {
+		margin-left: 43%;
+	}
+	nav {
+		margin-left: 35%;
+	}
+
+	/*Home(index) page
+	#portrait {
+		margin-left: 27.9%;
+	}
+	#smallpics {
+		margin-left: 22%;
+	}
+
+	/*About page
+	#all_columns {
+		margin-left: 15%;
+		margin-bottom: 490%;
+	}
+	#column1, #column2, #column3 {
+		width: 550px;
+	}
+	.bpp_links {
+		margin-top: 5%;
+	}
+	#chef_james {
+		width: 548px;
+	}
+
+	/*Hobbies page
+	#hobby_columns {
+		margin-left: 15%;
+		margin-bottom: 220%;
+	}
+	#hobby1, #hobby2, #hobby3 {
+		width: 560px;
+	}
+	#kimball {
+		margin-left: 1%;
+	}
+	#cartech {
+		margin-left: 1%;
+	}
+	#catering {
+		margin-left: 1%;
 	}
 }
